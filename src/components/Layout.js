@@ -49,7 +49,9 @@ const TemplateWrapper = ({ children }) => {
         />
       </Helmet>
       <Navbar />
-      <div>{children}</div>
+      <div style={{ position: 'relative' }}>
+        <div>{children}</div>
+      </div>
       <Footer />
     </div>
   )

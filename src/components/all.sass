@@ -10,8 +10,18 @@ $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
 
+body
+  font-family: "Skolar-Light-Latin",Georgia,Times,"Times New Roman",serif;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #222f3a;
+  -webkit-font-smoothing: antialiased;
+
 .navbar .navbar-menu
   box-shadow:none !important
+
+.navbar
+  background-color: #dee5eb !important;
 
 .content .taglist
   list-style: none
@@ -27,6 +37,12 @@ $black: #2b2523
     padding: 0 2rem 1rem 0
     margin-bottom: 1.5rem
     margin-top: 0
+.content .conversation-list
+  list-style: none
+  margin-bottom: 0
+  margin-left: 0
+  margin-right: 1.5rem
+  margin-top: 1.5rem
 
 // Helper Classes
 .full-width-image-container
@@ -122,7 +138,34 @@ $menu-label-color: $white-ter
   flex-basis: 35%;
   margin: 0 1.5em 0 0;
 
+.player-wrapper 
+  position: relative;
+  padding-top: 10px;
+  height: 550px;
 
+.player-wrapper-mini
+  position: relative;
+  height: 30px;
+
+.react-player
+  position: absolute;
+  top: 0;
+  left: 0;
+
+.description-main
+  margin: 0px;
+  padding: 0px;
+
+.section-head 
+  font-size: 27px;
+  border-bottom: 1px solid #cbd1d6;
+  padding-bottom: 4.5px;
+  margin: 12px 0;
+  margin-bottom: 0;
+  color: #a1aab4;
+  line-height: 1.2;
+  text-align: left;
+  
 @import "~bulma"
 
 
