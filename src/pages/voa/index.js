@@ -2,8 +2,6 @@ import { Link } from 'gatsby'
 import React from 'react'
 import Layout from '../../components/Layout'
 import LestLearnEng1Roll from '../../components/LestLearnEng1Roll'
-import { DecriptionVOALetlearnEnglish } from './constant'
-
 export default class VoaIndexPage extends React.Component {
   render() {
     return (
@@ -12,7 +10,8 @@ export default class VoaIndexPage extends React.Component {
           <div className="container">
             <div className="content">
               <p className='section-head'>About Let's Learn English - Level 1</p>
-              <p className="description-main" >{DecriptionVOALetlearnEnglish}</p>
+              <p className="description-main" >Let's Learn English - Level 1 is a new course for English learners. Certified American English teachers designed the course for beginners. The course continues for 52 weeks. Each week, there will be a new lesson with video showing the lives of young Americans. The lesson includes instruction in speaking, vocabulary and writing. There are also printable worksheets, assessments and lesson plans for individual learners and English teachers.
+</p>
               <Link to='https://learningenglish.voanews.com/p/5644.html'>From VOA learn english</Link>
                <LestLearnEng1Roll />
             </div>
