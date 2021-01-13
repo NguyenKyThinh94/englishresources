@@ -1,34 +1,20 @@
+import { Link } from 'gatsby'
 import React from 'react'
-
 import Layout from '../../components/Layout'
-import BlogRoll from '../../components/BlogRoll'
+import LestLearnEng1Roll from '../../components/LestLearnEng1Roll'
+import { DecriptionVOALetlearnEnglish } from './constant'
 
 export default class VoaIndexPage extends React.Component {
   render() {
     return (
       <Layout>
-        <div
-          className="full-width-image-container margin-top-0"
-          style={{
-            backgroundImage: `url('/img/blog-index.jpg')`,
-          }}
-        >
-          <h1
-            className="has-text-weight-bold is-size-1"
-            style={{
-              boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
-              backgroundColor: '#f40',
-              color: 'white',
-              padding: '1rem',
-            }}
-          >
-            Latest Stories
-          </h1>
-        </div>
         <section className="section">
           <div className="container">
             <div className="content">
-              <BlogRoll />
+              <p className='section-head'>About Let's Learn English - Level 1</p>
+              <p className="description-main" >{DecriptionVOALetlearnEnglish}</p>
+              <Link to='https://learningenglish.voanews.com/p/5644.html'>From VOA learn english</Link>
+               <LestLearnEng1Roll />
             </div>
           </div>
         </section>

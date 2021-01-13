@@ -65,3 +65,24 @@ collections:
           - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
           - {label: Full_image, name: full_image, widget: image}
           - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
+  - name: "voa"
+    label: "voa"
+    folder: "src/pages/voa"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "voa-lesson"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Main video", name: "mainVideo", widget: "string"}
+      - {label: "Title Download", name: "titleDownload", widget: "string", default: "Download"}
+      - {label: "Main download", name: "mainDownload", widget: "string"}
+      - {label: "Img Download", name: "imgDownload", widget: "string"}
+      - {label: "Title Speaking Practice", name: "titleSpeckingPractice", widget: "string", default: "Speaking Practice"}
+      - {label: "Specking Pratice Video", name: "speakingPracticeVideo", widget: "string"}
+      - {label: "Title Pronunciation", name: "titlePronunciation", widget: "string", default: "Pronunciation"}
+      - {label: "Pronunciation Video", name: "pronunciationVideo", widget: "string"}
+      - {label: "Title Conversation", name: "titleConversation", widget: "string", default: "Conversation"}
+      - {label: "Conversation Audio", name: "conversationAudio", widget: "string"}
+      - {label: "sub", name: "conversationSub", widget: "string"}
+      - {label: Description, name: description, widget: string}
+      - {label: "Tags", name: "tags", widget: "list"}
