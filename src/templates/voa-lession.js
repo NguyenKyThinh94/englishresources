@@ -7,7 +7,7 @@ import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import Player from '../components/Player'
 
-export const BlogPostTemplate = ({
+export const VoaLessionTemplate = ({
   content,
   contentComponent,
   description,
@@ -49,7 +49,7 @@ export const BlogPostTemplate = ({
   )
 }
 
-BlogPostTemplate.propTypes = {
+VoaLessionTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
@@ -64,7 +64,7 @@ const BlogPost = ({ data }) => {
 
   return (
     <Layout>
-      <BlogPostTemplate
+      <VoaLessionTemplate
         content={post.html}
         contentComponent={HTMLContent}
         url={post.frontmatter.url}
@@ -94,7 +94,7 @@ BlogPost.propTypes = {
 export default BlogPost
 
 export const pageQuery = graphql`
-  query BlogPostByID($id: String!) {
+  query VoaLessionByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html
