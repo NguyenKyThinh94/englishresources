@@ -1,3 +1,0 @@
-export const DecriptionVOALetlearnEnglish = `
-Let's Learn English - Level 1 is a new course for English learners. Certified American English teachers designed the course for beginners. The course continues for 52 weeks. Each week, there will be a new lesson with video showing the lives of young Americans. The lesson includes instruction in speaking, vocabulary and writing. There are also printable worksheets, assessments and lesson plans for individual learners and English teachers.
-`
