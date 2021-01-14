@@ -1,16 +1,16 @@
 ---
 templateKey: voa-lesson
 title: "Lesson 2: Hello, I'm Anna!"
-mainVideo: https://www.youtube.com/watch?v=1-U7o9xjWQc
+mainVideo: https://learningenglish.voanews.com/embed/player/0/3345709.html?type=video
 titleDownload: Download
 mainDownload: http://eleburic.com/24622109/lesson2
 imgDownload: https://gdb.voanews.com/351E7568-7BE7-46EB-9184-81D27B01F9E7_w650_r0.png
 titleSpeckingPractice: Speaking Practice
-speakingPracticeVideo: https://www.youtube.com/watch?v=1-U7o9xjWQc
+speakingPracticeVideo: https://learningenglish.voanews.com/embed/player/0/3760323.html?type=video
 titlePronunciation: Pronunciation
-pronunciationVideo: https://www.youtube.com/watch?v=1-U7o9xjWQc
+pronunciationVideo: https://learningenglish.voanews.com/embed/player/0/3183926.html?type=video
 titleConversation: Conversation
-conversationAudio: https://av.voanews.com/clips/VLE/2016/02/10/56246d7b-5fa4-42d2-90b0-d403e6b46227.mp3
+conversationAudio: https://learningenglish.voanews.com/embed/player/0/3185254.html?type=audio
 conversationSub: "Jonathan: Hey, Pete! Who’s your friend?/ Pete: She is Anna.
   She is new to D.C./ Jonathan: Where are you from?/ Anna: I am from a small
   town./ Jonathan: Well, welcome to D.C./ Anna: Thank you./ Jonathan: I am
