@@ -1,16 +1,16 @@
 ---
 templateKey: voa-lesson
 title: 'Lesson 1: Welcome!'
-mainVideo: https://www.youtube.com/watch?v=WR9_nsLyaEY
+mainVideo: https://learningenglish.voanews.com/embed/player/0/3345694.html?type=video
 titleDownload: Tải tài liệu
 imgDownload: https://gdb.voanews.com/318D35F8-E6B9-410C-AB0F-ED7494CBA0AC_w650_r0.png
 mainDownload: http://eleburic.com/24622109/lesson1welcome
 titleSpeckingPractice: Tập nói
-speakingPracticeVideo: https://www.youtube.com/watch?v=quJ8dlyxWIk
+speakingPracticeVideo: https://learningenglish.voanews.com/embed/player/0/3178988.html?type=video
 titlePronunciation: Tập phát âm
-pronunciationVideo: https://www.youtube.com/watch?v=65iWtWqWmgY
+pronunciationVideo: https://learningenglish.voanews.com/embed/player/0/3178989.html?type=video
 titleConversation: Nghe hội thoại
-conversationAudio: https://av.voanews.com/clips/VLE/2016/02/08/49485bf8-4277-47f6-9abe-617ee2473f8c.mp3
+conversationAudio: https://learningenglish.voanews.com/embed/player/0/3181231.html?type=audio
 conversationSub: >-
   Pete: Hi! Are you Anna?/
   Anna: Yes! Hi there! Are you Pete?/
