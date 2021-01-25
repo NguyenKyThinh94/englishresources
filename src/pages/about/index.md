@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
 path: /about
-title: About our values
+title: About me
 ---
 # REST API of Orthanc
 ## Sending DICOM images( Gởi ảnh dicom)

@@ -1,6 +1,7 @@
 ---
 templateKey: voa-lesson
 title: 'Lesson 1: Welcome!'
+featuredimage: /img/chemex.jpg
 mainVideo: https://learningenglish.voanews.com/embed/player/0/3345694.html?type=video
 titleDownload: Tải tài liệu
 imgDownload: https://gdb.voanews.com/318D35F8-E6B9-410C-AB0F-ED7494CBA0AC_w650_r0.png

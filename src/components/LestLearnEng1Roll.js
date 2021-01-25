@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
+import PreviewCompatibleImage from './PreviewCompatibleImage'
 
 class LestLearnEng1Roll extends React.Component {
   render() {
@@ -16,6 +17,17 @@ class LestLearnEng1Roll extends React.Component {
                 className={`blog-list-item tile is-child box notification is-featured`}
               >
                 <header>
+                  {post.frontmatter.featuredimage ? (
+                    <div className="featured-thumbnail">
+                      <PreviewCompatibleImage
+                        imageInfo={{
+                          image: post.frontmatter.featuredimage,
+                          alt: `featured image thumbnail for post ${post.frontmatter.title}`,
+                        }}
+                      />
+                    </div>
+                  ) : null}
+                  <div style={{ display: 'flex', flexDirection: 'column' }}>
                   <p className="post-meta">
                     <Link
                       className="title has-text-primary is-size-4"
@@ -25,15 +37,13 @@ class LestLearnEng1Roll extends React.Component {
                     </Link>
                     <span> &bull; </span>
                   </p>
-                </header>
-                <p>
-                  {post.excerpt}
-                  <br />
-                  <br />
-                  <Link className="button" to={post.fields.slug}>
-                    Keep Reading →
+                  <p>
+                    <Link className="button" to={post.fields.slug}>
+                      Keep Reading →
                   </Link>
-                </p>
+                  </p>
+                  </div>
+                </header>
               </article>
             </div>
           ))}
