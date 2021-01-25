@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import { Link } from 'gatsby'
 
 const FeatureGrid = ({ gridItems }) => (
   <div className="columns is-multiline">
@@ -10,7 +11,7 @@ const FeatureGrid = ({ gridItems }) => (
           <div className="has-text-centered">
             <div
               style={{
-                width: '240px',
+                width: '100%',
                 display: 'inline-block',
               }}
             >
@@ -18,6 +19,9 @@ const FeatureGrid = ({ gridItems }) => (
             </div>
           </div>
           <p>{item.text}</p>
+          <Link className="button" to={item.link}>
+            Keep Reading →
+          </Link>
         </section>
       </div>
     ))}

@@ -1,6 +1,7 @@
 ---
 templateKey: voa-lesson
 title: "Lesson 2: Hello, I'm Anna!"
+featuredimage: /img/chemex.jpg
 mainVideo: https://learningenglish.voanews.com/embed/player/0/3345709.html?type=video
 titleDownload: Download
 mainDownload: http://eleburic.com/24622109/lesson2
